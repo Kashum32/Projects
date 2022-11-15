@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #333;
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#myProgress{
+    background: #b300fa;
+    width: 60%;
+    min-height: 50px;
+    box-shadow: 0px 10px 30px rgba(255,255,255,0.1);
+}
+
+#myBar{
+    background: green;
+    width: 8%;
+    color: #ffff;
+    font-size: 20px;
+    line-height: 50px;
+    height: 50px;
+    text-align: center;
+    font-weight: 500;
+}
+
+button{
+    font-size: 20px;
+    position: absolute;
+    top: 60%;
+    left: 24.5%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #666;
+    transition: 0.5s;
+
+}
+
+button:hover{
+    background: #ff4367;
+    color: #fff;
+}

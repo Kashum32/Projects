@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!---- title ----------->
+    <title>Progress bar | Running used css & js</title>
+
+    <!---- customer css file link ---->
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+
+        <div class="container">
+
+            <div id="myProgress">
+                <div id="myBar">
+                    1%
+                </div>
+            </div>
+
+            <br>
+
+            <button type="submit" onclick="move()">Click Here</button>
+
+        </div>
+
+
+        <!---- customer script -->
+
+        <script>
+
+            var i = 0;
+
+            function move(){
+
+                if (i == 0){
+                    i = 1;
+                    var myBar = document.getElementById("myBar");
+                    var width = 1;
+                    var id = setInterval(frame, 50);
+
+                    function frame(){
+                        if(width >= 100){
+                            clearInterval(id);
+                            i = 0;
+                        }
+                        else
+                        {
+                            width++;
+                            myBar.style.width = width + "%";
+                            myBar.innerHTML = width + "%";
+                        }
+                    }
+                }
+               
+
+            }
+
+
+        </script>
+
+
+
+    
+</body>
+</html>
