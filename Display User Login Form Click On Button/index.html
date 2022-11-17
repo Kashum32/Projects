@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!----- title ----------->
+    <title>Display User Login Form Click On Button</title>
+
+    <!-------- custom css file link ----------->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+        <h2 class="header">Moden Login Form</h2>
+
+        <div class="login-button-form">
+            <button onclick="document.getElementById('user-login').style.display = 'block' " id="login" type="submit" class="login-button">Login</button>
+        </div>
+
+        <div id="user-login" class="login-form">
+
+            <form action="" class="login-container">
+
+                <div class="img-container">
+                    <span class="close" onclick="document.getElementById('user-login').style.display = 'none' ">&times;</span>
+                    <img src="./img/user1.jpg" alt="">
+                </div>
+
+                <div class="container">
+                    <label for="username">Username</label>
+                    <input type="text" placeholder="Enter Username" required>
+
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="Enter Password" required>
+
+                    <input type="submit" class="btn" value="Login">
+
+                    <div class="checkbox">
+                        <input type="checkbox" > Remember me
+                    </div>
+
+                    <span class="password">Forgot <a href="#">password ?</a></span>
+                </div>
+
+            </form>
+        </div>
+
+    
+</body>
+</html>
