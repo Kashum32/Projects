@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700&family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+    background: #f2f2f2;
+}
+
+.header{
+    display: flex;
+    left: 0;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 12px;
+
+}
+
+.header .icons{
+    display: flex;
+    align-items: center;
+    padding-left: 18px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.header .icons i{
+    padding-left: 8px;
+    font-size: 16px;
+}
+
+.header .icons i span{
+    margin-left: 5px;
+    font-size: 17px;
+}
+
+.header .social-links{
+    display: flex;
+    position: absolute;
+    right: 32px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.header .social-links a i{
+    margin-left: 5px;
+    color: #fff;
+    background: #0000ff;
+    color: #fff;
+    padding: 4px 5px;
+    border: 1px solid #0000ff;
+    border-radius: 3px;
+}
+
+.header .social-links a:hover i{
+    color: #0000ff;
+    background: #fff;
+}
+
+@media(max-width:780px){
+    .header .icons{
+        display: block;
+        margin-left: 5px;
+    }
+
+    .header .icons i{
+       position: absolute;
+    }
+}
+
+@media(max-width:460px){
+    .header .icons i{
+        position: absolute;
+        font-size: 11px;
+     }
+
+     .header .icons i span{
+        font-size: 12px;
+    }
+
+    .header .social-links{
+        position: absolute;
+        right:8px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .header .social-links a i{
+        font-size: 12px;
+    }
+}
+
+@media(max-width:330px){
+    .header{
+        display: block;
+    }
+
+    .header .icons i{
+        position: absolute;
+        font-size: 8px;
+     }
+
+     .header .icons i span{
+        font-size: 9px;
+    }
+
+    
+    .header .social-links{
+       display: flex;
+       position: absolute;
+       right: 0px;
+       left: 5px;
+       top: 10px;
+    }
+
+    .header .social-links a i{
+        font-size: 9px;
+        padding: 2px 3px;
+    }
+}
+
+.container .colomn-1 .btn {
+    border: none;
+    outline: none;
+    color: #ffffff;
+}
+
+.container .colomn-1 .btn i{
+    border: 1px solid #fff;
+    padding: 7px 5px;
+}
+
+.container .colomn-1 .btn i:hover{
+    border: 3px solid rgb(0,200,255);
+    transition: 0.4s;
+}
+
+.about-us .row{
+    padding-top: 50px;
+    box-shadow:0px 5px 12px rgba(0,0,0,0.2);
+}
+
+.about-us .text-center{
+    font-weight: 700;
+}
+
+.about-us span{
+    display: flex;
+    align-items: center;
+    left: 0;
+    text-align: center;
+    justify-content: space-between;
+}
+
+@media(max-width:780px){
+    .hero-section .colomn-1{
+        margin-top: 50px;
+    }
+
+    .hero-section .colomn-2 img{
+        padding-top: 120px;
+    }
+}
+
+@media (max-width:575px){
+    .client .col-sm-2{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .client .col-sm-2 img{
+        width: 230px;
+    }
+}
+
+@media (max-width:330px){
+    .client .col-sm-2 img{
+        width: 100px;
+    }
+}
+
+/*---------- services section ----------*/
+.services .row .col-md-2 {
+    box-shadow: 0px 5px 12px rgba(0,0,0,0.2);
+}
+
+.services .row .col-md-2:hover{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
+.services .container .col-md-2 .fas{
+    font-size: 30px;
+}
+
+.calAction{
+    background: url(../img/cta-bg.jpg) no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+/*------ team section -----------*/
+
+.team .row .fa{
+    border: 1px solid #666;
+    padding: 4px 5px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.5 ease;
+}
+
+.team .row .fa:hover{
+    color: #fff;
+    background: rgb(0,200,255);
+}
+
+.team .row .col-md-5,
+.team .row .col-md-6{
+    box-shadow: 0px 5px 12px rgba(0,0,0,0.2);
+}
+
+.team .row .col-md-5:hover,
+.team .row .col-md-6:hover{
+    transform: translateY(-10px);
+    transition: all 0.5s;
+}
