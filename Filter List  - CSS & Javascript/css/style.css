@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background:#333;
+}
+
+#myInput{
+    background-image: url(../img/search.png);
+    background-repeat: no-repeat;
+    background-position: 10px 12px;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+h2{
+    text-align: center;
+    color: #ff0080;
+    padding: 22px;
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+.phoneBook{
+    width: 80%;
+    margin: auto;
+    margin-top: 34px;
+}
+
+#list{
+    list-style: none;
+    padding: 22px 0;
+    margin: 0;
+}
+
+#list li a{
+    border: 1px solid #ddd;
+    margin-top: -1px;
+    background: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+    display: block;
+}
+
+#list li a:hover:not(.header){
+    background: #eee;
+}
