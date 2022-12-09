@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!------- title -------->
+    <title>Cosmix Free Website | Responsive</title>
+
+    <!------ Google fonts ------>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,900;1,100;1,200;1,300;1,600&display=swap" rel="stylesheet">
+
+    <!----- font awesome cdn link ------>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!------ Customer css file link -->
+     <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+
+        
+       <div class="header">
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <a href="./index.html"><img src="./images/Logo/01.png" ></a>
+                    </div>
+
+                    <nav id="navlinks" class="nav-links">
+                        <i class="fa fa-times" onclick="hideMenu()"></i>
+                        <ul>
+                            <li><a href="./index.html">Home</a></li>
+                            <li><a href="#about-us">About</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#blog">Blog</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+
+                    <i class="fa fa-bars" onclick="showMenu()"></i>
+                </div>
+
+                <div class="row">
+                    <!------ slideshow container----->
+                    <div class="slideshow-container">
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">1 / 3</div>
+                            <img src="./images/Slider/01.jpg" style="width:100%; height:90vh;">
+                            <div class="text">
+                                <h3>We Are Cosmix</h3>
+                                <h1>Creative Themes</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, soluta. Dolor nisi voluptatibus placeat optio laudantium asperiores distinctio, necessitatibus quaerat.</p>
+
+                            </div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">2 / 3</div>
+                            <img src="./images/Slider/02.jpg" style="width:100%; height:90vh;">
+                            <div class="text">
+                                <h3>We Are Cosmix</h3>
+                                <h1>Creative Themes</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, soluta. Dolor nisi voluptatibus placeat optio laudantium asperiores distinctio, necessitatibus quaerat.</p>
+                                
+                            </div>
+                        </div>
+
+                        <div class="mySlides fade">
+                            <div class="numbertext">3 / 3</div>
+                            <img src="./images/Slider/03.jpg" style="width:100%; height:90vh;">
+                            <div class="text">
+                                <h3>We Are Cosmix</h3>
+                                <h1>Creative Themes</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, soluta. Dolor nisi voluptatibus placeat optio laudantium asperiores distinctio, necessitatibus quaerat.</p>
+                                
+                            </div>
+                        </div>
+
+                        <!----- Next and Previous Button ----->
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+                    </div>
+                    <br>
+
+                    <!---- The dots/circles-->
+                    <div style="text-align:center;">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                      
+                    </div>
+
+                </div>
+            </div>
+       </div> 
+
+        <!---- ABOUT US ------>
+       <div id="about-us">
+            <div class="small-container">
+                <h1 class="small-header">About <span>Us</span></h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur voluptates ad ducimus ea qui? Ut reiciendis corporis adipisci. Vel, quam.</p>
+
+                <div class="row1">
+                    <div class="col-1">
+                        <h1 class="title">
+                            <span>W</span>e Are Creative And Awesome
+                        </h1>
+                        <p>
+                            <span>L</span>orem ipsum dolor sit amet consectetur adipisicing elit. Suscipit enim molestias necessitatibus aut commodi quidem beatae quos, quasi voluptatum eveniet.
+                        </p>
+                    </div>
+
+                    <div class="col-1">
+                        <img src="./images/Aboutus/01.jpg">
+                    </div>
+
+                </div>
+            </div>
+       </div>
+
+
+       <!----Servises ------>
+       <div id="services">
+            <div class="small-container">
+                <h1 class="small-header">
+                    Our Servi <span>ce</span>
+                </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut laudantium hic expedita est nobis quae iste delectus sapiente soluta? Amet.</p>
+
+                <div class="row1">
+                    <div class="col-2">
+                        <div class="circle">
+                            <i class="fa fa-bar-chart"></i>
+                        </div>
+                        <div class="topic">
+                            <h3>UI Design</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta iste in eveniet, illo quod non quis praesentium recusandae officia! Minima.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-2">
+                        <div class="circle">
+                            <i class="fa fa-bank"></i>
+                        </div>
+                        <div class="topic">
+                            <h3>Web Design</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta iste in eveniet, illo quod non quis praesentium recusandae officia! Minima.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-2">
+                        <div class="circle">
+                            <i class="fa fa-cubes"></i>
+                        </div>
+                        <div class="topic">
+                            <h3>Softwere Deneloper</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta iste in eveniet, illo quod non quis praesentium recusandae officia! Minima.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row2">
+                    <div class="col-2">
+                        <div class="circle">
+                            <i class="fa fa-flask"></i>
+                        </div>
+
+                        <div class="topic">
+                            <h3>Data Science</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum quod nulla repellat provident maxime totam facilis, rerum expedita aut ad!
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-2">
+                        <div class="circle">
+                            <i class="fa fa-futbol-o"></i>
+                        </div>
+
+                        <div class="topic">
+                            <h3>Data Analytics</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum quod nulla repellat provident maxime totam facilis, rerum expedita aut ad!
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-2">
+                        <div class="circle">
+                            <i class="fa fa-gears"></i>
+                        </div>
+
+                        <div class="topic">
+                            <h3>Machin Lerning</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum quod nulla repellat provident maxime totam facilis, rerum expedita aut ad!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div>
+
+       <!---- features ----->
+       <div id="features">
+            <div class="small-container">
+                <h1 class="small-header">Our Featur <span>es</span></h1>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus quibusdam reiciendis fugit voluptatem repudiandae voluptatibus quia inventore iste velit dolor
+                </p>
+
+                <div class="row3">
+                    <div class="col-4">
+                        <div id="myBtnContainer">
+                            <button class="btn-one active" onclick="openBtn(event, 'one')"><i class="fa fa-calendar-o"></i></button>
+                            <button class="btn-one active" onclick="openBtn(event, 'two')"><i class="fa fa-file-word-o"></i></button>
+                            <button class="btn-one active" onclick="openBtn(event, 'three')"><i class="fa fa-handshake-o"></i></button>
+                            <button class="btn-one active" onclick="openBtn(event, 'four')"><i class="fa fa-hourglass-o"></i></button>
+                            <button class="btn-one active" onclick="openBtn(event, 'five')"><i class="fa fa-laptop"></i></button>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row3 row-one">
+                    <div class="col-5 btncontent btncontent1" id="one">
+                        <div class="show">
+                            <div class="content">
+                                <h3>Web Design</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At minima autem quibusdam possimus velit ullam ut, et doloribus dolorem ducimus.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At minima autem quibusdam possimus velit ullam ut, et doloribus dolorem ducimus.
+                                </p>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At minima autem quibusdam possimus velit ullam ut, et doloribus dolorem ducimus.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At minima autem quibusdam possimus velit ullam ut, et doloribus dolorem ducimus.
+                                </p>
+                            </div>
+
+                            <div class="image-part">
+                                <img src="./images/Features/web design.jpg" width="100%"> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-5 btncontent" id="two">
+                        <div class="show">
+                            <div class="content">
+                                <h3>Graphic Design</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At minima autem quibusdam possimus velit ullam ut, et doloribus dolorem ducimus.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At minima autem quibusdam possimus velit ullam ut, et doloribus dolorem ducimus.
+                                </p>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At minima autem quibusdam possimus velit ullam ut, et doloribus dolorem ducimus.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At minima autem quibusdam possimus velit ullam ut, et doloribus dolorem ducimus.
+                                </p>
+                            </div>
+                            <div class="image-part">
+                                <img src="./images/Features/graphic design.jpg" width="100%">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-5 btncontent" id="three">
+                        <div class="show">
+                            <div class="content">
+                                <h3>Web Development</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At minima autem quibusdam possimus velit ullam ut, et doloribus dolorem ducimus.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At minima autem quibusdam possimus velit ullam ut, et doloribus dolorem ducimus.
+                                </p>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At minima autem quibusdam possimus velit ullam ut, et doloribus dolorem ducimus.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At minima autem quibusdam possimus velit ullam ut, et doloribus dolorem ducimus.
+                                </p>
+                            </div>
+                            <div class="image-part">
+                                <img src="./images/Features/web development.jpeg" width="100%">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-5 btncontent" id="four">
+                        <div class="show">
+                            <div class="content">
+                                <h3>Responsive Design</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At minima autem quibusdam possimus velit ullam ut, et doloribus dolorem ducimus.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At minima autem quibusdam possimus velit ullam ut, et doloribus dolorem ducimus.
+                                </p>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At minima autem quibusdam possimus velit ullam ut, et doloribus dolorem ducimus.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At minima autem quibusdam possimus velit ullam ut, et doloribus dolorem ducimus.
+                                </p>
+                            </div>
+                            <div class="image-part">
+                                <img src="./images/Features/responsive.png" width="100%">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-5 btncontent" id="five">
+                        <div class="show">
+                            <div class="content">
+                                <h3>Creative Gallery</h3>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At minima autem quibusdam possimus velit ullam ut, et doloribus dolorem ducimus.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At minima autem quibusdam possimus velit ullam ut, et doloribus dolorem ducimus.
+                                </p>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At minima autem quibusdam possimus velit ullam ut, et doloribus dolorem ducimus.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. At minima autem quibusdam possimus velit ullam ut, et doloribus dolorem ducimus.
+                                </p>
+                            </div>
+                            <div class="image-part">
+                                <img src="./images/Features/creative.jpg" width="100%">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+       </div>
+
+       <!------ Bolog -------->
+       <div id="blog">
+            <div class="small-container">
+                <h1 class="small-header">Our Blog <span>s</span></h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quam odio quaerat praesentium alias non exercitationem minus quod aut accusantium.</p>
+
+                <div class="row4">
+                    <div class="col-6">
+                        <div class="date">
+                            <span>JAN <br>10 <br>2016</span>
+                        </div>
+                        <div class="img-content">
+                            <img src="./images/Blog/1.jpg" >
+                            <a href="" class="topic"><h2>Lorem ipsum dolor sit amet consectetur.</h2></a>
+                            <div class="icon-name">
+                                <span><i class="fa fa-gratipay"></i>Name</span>
+                                <span><i class="fa fa-snapchat-square"></i>04</span>
+                            </div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ipsam nesciunt officia earum debitis, quos maiores iusto commodi! Dolores, eaque.
+                            </p>
+                            <a href="" class="btnRead">Read More</a>
+                        </div>
+                    </div>
+
+                    <div class="col-6">
+                        <div class="date">
+                            <span>JAN <br>10 <br>2016</span>
+                        </div>
+                        <div class="img-content">
+                            <img src="./images/Blog/2.jpg" >
+                            <a href="" class="topic"><h2>Lorem ipsum dolor sit amet consectetur.</h2></a>
+                            <div class="icon-name">
+                                <span><i class="fa fa-gratipay"></i>Name</span>
+                                <span><i class="fa fa-snapchat-square"></i>04</span>
+                            </div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ipsam nesciunt officia earum debitis, quos maiores iusto commodi! Dolores, eaque.
+                            </p>
+                            <a href="">Read More</a>
+                        </div>
+                    </div>
+
+                    <div class="col-6">
+                        <div class="date">
+                            <span>JAN <br>10 <br>2016</span>
+                        </div>
+                        <div class="img-content">
+                            <img src="./images/Blog/3.jpg" >
+                            <a href="" class="topic"><h2>Lorem ipsum dolor sit amet consectetur.</h2></a>
+                            <div class="icon-name">
+                                <span><i class="fa fa-gratipay"></i>Name</span>
+                                <span><i class="fa fa-snapchat-square"></i>04</span>
+                            </div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ipsam nesciunt officia earum debitis, quos maiores iusto commodi! Dolores, eaque.
+                            </p>
+                            <a href="">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div>
+
+       <!----- contact ----->
+       <div id="contact">
+            <div class="small-container">
+                <h1 class="small-header">Our Contact <span>Us</span></h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium quisquam fuga cumque commodi, tenetur accusamus delectus tempore sapiente? Labore, rem.</p>
+
+                <div class="row2">
+                    <div class="contact-form">
+                        <h1 class="small-topic" style="font-size:22px; color:#555;">Contact <span>Info</span></h1>
+                        <div class="info">
+                            <span>
+                                <i class="fa fa-laptop"></i>Address :
+                                <h5>No 123, Wallstreat, India</h5>
+                            </span>
+                        </div>
+
+                        <div class="info">
+                            <span>
+                                <i class="fa fa-envelope"></i>Mail Us :
+                                <h5>Info@yourdomain.com</h5>
+                            </span>
+                        </div>
+
+                        <div class="info">
+                            <span>
+                                <i class="fa fa-phone"></i>Phone :
+                                <h5>+91 123-4566</h5>
+                            </span>
+                        </div>
+
+                        <div class="info">
+                            <span>
+                                <i class="fa fa-comment"></i>Website :
+                                <h5>www.cosmix.com</h5>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="contact-form">
+                        <form action="">
+                            <div class="input1">
+                                <input type="text" class="name" placeholder="Name">
+                                <input type="email" placeholder="Email Address">
+                            </div>
+
+                            <div class="input2">
+                                <input type="text" placeholder="Subject">
+                                <textarea rows="8" placeholder="Enter Your Message"></textarea>
+                                <button type="submit">Send Now</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+       </div>
+
+
+       <!----------- footer ------------>
+
+       <div class="footer">
+            <hr>
+            <div class="footer-content">
+                <div class="col-7">
+                    <h4>@Copyright - 2022 by cosmix </h4>
+                </div>
+                <div class="col-7">
+                    <div class="social">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+       </div>
+
+
+    <!----- customer js file link -->
+    <script src="./js/script.js"></script>
+    
+</body>
+</html>
